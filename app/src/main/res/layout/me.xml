@@ -40,13 +40,14 @@
             android:layout_marginBottom="16dp" />
 
         <TableLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:stretchColumns="10">
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:padding="3dp">
+                android:padding="3dp"
+                >
 
                 <ImageView
                     android:layout_width="50dp"
@@ -82,20 +83,54 @@
                     android:text="@string/love_unit" />
 
             </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="3dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/account_unit"
+                    android:src="@drawable/account" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/account_unit" />
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="3dp">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:contentDescription="@string/Logo_setting"
+                    android:src="@drawable/settings" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="30dp"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/setting_unit" />
+
+            </TableRow>
+
         </TableLayout>
 
 
 
         <!-- Buttons -->
-        <Button
-            android:layout_marginTop="50dp"
-            android:id="@+id/editProfileButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Chỉnh sửa hồ sơ"
-            android:layout_marginBottom="12dp" />
 
         <Button
+            android:layout_marginTop="10dp"
             android:id="@+id/logoutButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

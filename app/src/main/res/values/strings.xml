@@ -15,4 +15,7 @@
     <string name="Gioithieu_unit">Giới thiệu</string>
     <string name="Logo_love">Logo Love</string>
     <string name="love_unit">Yêu thích</string>
+    <string name="Logo_setting">Logo Setting</string>
+    <string name="setting_unit">Cài đặt</string>
+    <string name="account_unit">Chỉnh sửa hồ sơ</string>
 </resources>
