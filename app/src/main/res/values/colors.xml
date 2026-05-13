@@ -12,4 +12,6 @@
     <color name="orangeMid">#F4511E</color>
     <color name="blue">#2196F3</color>
     <color name="blueMid">#03A9F4</color>
+    <color name="blueDark">#0288D1</color>
+    <color name="while1">#EEEEEE</color>
 </resources>
